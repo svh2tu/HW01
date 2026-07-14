@@ -1,0 +1,100 @@
+  157  clear
+  158  more science.txt
+  159  head science.txt
+  160  head -5 science.txt
+  161  tail science.txt
+  162  more science.txt
+  163  grep science science.txt
+  164  grep Science science.txt
+  165  grep -i science science.txt
+  166  grep -i Science science.txt
+  167  grep -i 'spinning top' science.txt
+  168  grep -ivc science science.txt
+  169  wc -w science.txt
+  170  wc -l science.txt
+  171  cat
+  172  wc -w science.txt
+  173  cat > list1
+  174  cat list1
+  175  cat >> list1
+  176  cat list1
+  177  cat list1 list2 > biglist
+  178  cat biglist
+  179  sort
+  180  sort < biglist
+  181  sort < biglist > slist
+  182  who
+  183  who > names.txt
+  184  sort < names.txt
+  185   who | sort
+  186  who | wc -l
+  187  grep -h p list? | sort > sorted_plist.txt
+  188  ls list*
+  189  ls *list
+  190  ls ?list
+  191  ls -l
+  192  chmod go-rwx biglist
+  193  chmod a+rw biglist
+  194  ps -u svh2tu
+  195  sleep 10
+  196  sleep 10 &
+  197  sleep 100
+  198  bg
+  199  obs
+  200  jobsw
+  201  jobs
+  202  fg %2
+  203  bg
+  204  sleep 100
+  205  kill %2
+  206  kill %3
+  207  bg
+  208  sleep 100 &
+  209  jobs
+  210  kill %1
+  211  sleep 100 &
+  212  ps
+  213  kill 393473
+  214  kill -9 393473
+  215  killall -9 sleep
+  216  wc science.txt
+  217  wc -1  science.txt
+  218  wc -1 science.txt
+  219  wc -l science.txt
+  220  diff science.txt names.txt
+  221  find . -name myscript.sh
+  222  find . -name "*.sh"
+  223  cd
+  224  find . -name "*.sh"
+  225  du -s -h *
+  226  ls -l science.txt
+  227  cd phys1655/hw/HW01/unixstuff
+  228  ls -l science.txt
+  229  gzip science.txt
+  230  gunzip science.txt.gz
+  231  zip science.txt.zip
+  232  zip science.txt
+  233  tar czf mydir.tar.gz mydir
+  234  mkdir mydir
+  235  tar czf mydir.tar.gz mydir
+  236  tar xf mydir.tar.gz
+  237  file *
+  238  cut­ -d DELIM ­-f1,2,3 file.txt
+  239  uniq mylist.txt
+  240  uniq science.txt
+  241  sort animals | uniq
+  242  history (show command history list)
+  243  history
+  244  sort animals | uniq
+  245  mkdir phys1655
+  246  grep -h p list? | sort > sorted_plist.txt
+  247  % echo $SHELL
+  248  echo $SHELL
+  249  printenv | more
+  250  export VAR=value
+  251  source envs.sh
+  252  echo $ncpus
+  253  source ~/.bashrc
+  254  cd; units
+  255  history 100 < history.txt
+  256  history 100 >  history.txt
