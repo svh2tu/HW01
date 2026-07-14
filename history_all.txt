@@ -1,0 +1,268 @@
+    1  pwd
+    2  cd
+    3  pwd
+    4  ls
+    5  mkdir phys1655
+    6  pwd
+    7  ls
+    8  cd phys1655
+    9  pwd
+   10  mkdir class
+   11  mkdir hw
+   12  ls
+   13  cd class
+   14  mkdir class01
+   15  ls.
+   16  ls
+   17  cd class01
+   18  ls
+   19  mkdir test1
+   20  mkdir test2
+   21  mkdir test3
+   22  ls
+   23  ls -l
+   24  cd phys1655/class01/test1
+   25  cd
+   26  cd phys1655/class01/test1
+   27  cd phys1655/
+   28  cd class/
+   29  cd class01/test
+   30  cd class01/test/
+   31  cd class01
+   32  cd test1
+   33  cd
+   34  ls
+   35  cd phys1655/
+   36  ls
+   37  cd class
+   38  ls
+   39  rm class01 C1
+   40  mv class01 C1
+   41  ls
+   42  cd c1
+   43  cd C1
+   44  ls
+   45  pwd
+   46  cd test1
+   47  touch file1.txt
+   48  nano file1.txt
+   49  pwd
+   50  cat file1.txt
+   51  /python
+   52   more file1.txt
+   53  less file1.txt
+   54  less file1.txt /python
+   55  echo $SHELL
+   56  cd
+   57  pwd
+   58  ls
+   59  ls -a
+   60  more ~rcg6p/phys1655/p1655.sh
+   61  nano .bashrc
+   62  source ~/.bashrc
+   63  vim .bashrc
+   64  source ~/.bashrc
+   65  source .bashrc
+   66  source ~/.bashrc
+   67  git clone git@github.com:svh2tu/Class02.git
+   68  python hello.py
+   69  cd
+   70  cd class
+   71  cd phys1655
+   72  cd class
+   73  cd Class02
+   74  python hello.py
+   75  vim hello.py
+   76  git add hello.py    
+   77  git status
+   78  git commit -m "my first commit"
+   79  git add hello.py    
+   80  git add hello.py
+   81  git status
+   82  vim hello.py
+   83  git add hello.py
+   84  git status
+   85  git commit -m "my first commit"
+   86  git push
+   87  vim hello.py
+   88  git add hello.py
+   89  git status
+   90  git commit -m "my first commit"
+   91  git commit -m "my second commit"
+   92  git push
+   93  vim hello.py
+   94  git commit -m "my third commit"
+   95  git add hello.py
+   96  git commit -m "my third commit"
+   97  git push
+   98  history 100 > history_class02.txt
+   99  more history_class02.txt 
+  100  cd
+  101  cd phys1655/hw
+  102  git clone git@github.com:svh2tu/HW01.git
+  103  cd HW01
+  104  % ls
+  105  ls
+  106  ls -a
+  107  mkdir unixstuff
+  108  ls
+  109  cd unixstuff
+  110  ls -a
+  111  cd .
+  112   cd ..
+  113  cd ..
+  114  cd HW01
+  115  % pwd
+  116  pwd
+  117  pwd -P
+  118  ls unixstuff
+  119  ls backups
+  120  ls unixstuff/backups
+  121  cd unixstuff
+  122  mkdir backups
+  123  cd ..
+  124  ls /home/mst3k/unixstuff/backups
+  125  ls /home/svh2tu/phys1655/hw/HW01/unixstuff/backups
+  126  ls ~/unixstuff
+  127  ls ~
+  128  ls ~/..
+  129  % man wc
+  130  man wc
+  131   wc --help
+  132  whatis wc
+  133  cd unixstuff
+  134  cp ../science.txt .
+  135  % cp ../science.txt ./newname
+  136  cp ../science.txt .
+  137  % cp ../science.txt ./newname
+  138  cp ../science.txt ./newname
+  139  mv science.bak backups/
+  140  cp science.txt science.bak
+  141  mv science.bak backups/.
+  142  ls
+  143  ls backups
+  144  % cp science.txt tempfile.txt
+  145  cp science.txt tempfile.txt
+  146  ;s
+  147  ls
+  148  rm tempfile.txt
+  149  ls
+  150  rm tempfile.txt
+  151  ls
+  152  rm -rf directory
+  153   rm -ir directory
+  154  mkdir tempstuff
+  155  rmdir tempstuff
+  156  cat science.txt 
+  157  clear
+  158  more science.txt
+  159  head science.txt
+  160  head -5 science.txt
+  161  tail science.txt
+  162  more science.txt
+  163  grep science science.txt
+  164  grep Science science.txt
+  165  grep -i science science.txt
+  166  grep -i Science science.txt
+  167  grep -i 'spinning top' science.txt
+  168  grep -ivc science science.txt
+  169  wc -w science.txt
+  170  wc -l science.txt
+  171  cat
+  172  wc -w science.txt
+  173  cat > list1
+  174  cat list1
+  175  cat >> list1
+  176  cat list1
+  177  cat list1 list2 > biglist
+  178  cat biglist
+  179  sort
+  180  sort < biglist
+  181  sort < biglist > slist
+  182  who
+  183  who > names.txt
+  184  sort < names.txt
+  185   who | sort
+  186  who | wc -l
+  187  grep -h p list? | sort > sorted_plist.txt
+  188  ls list*
+  189  ls *list
+  190  ls ?list
+  191  ls -l
+  192  chmod go-rwx biglist
+  193  chmod a+rw biglist
+  194  ps -u svh2tu
+  195  sleep 10
+  196  sleep 10 &
+  197  sleep 100
+  198  bg
+  199  obs
+  200  jobsw
+  201  jobs
+  202  fg %2
+  203  bg
+  204  sleep 100
+  205  kill %2
+  206  kill %3
+  207  bg
+  208  sleep 100 &
+  209  jobs
+  210  kill %1
+  211  sleep 100 &
+  212  ps
+  213  kill 393473
+  214  kill -9 393473
+  215  killall -9 sleep
+  216  wc science.txt
+  217  wc -1  science.txt
+  218  wc -1 science.txt
+  219  wc -l science.txt
+  220  diff science.txt names.txt
+  221  find . -name myscript.sh
+  222  find . -name "*.sh"
+  223  cd
+  224  find . -name "*.sh"
+  225  du -s -h *
+  226  ls -l science.txt
+  227  cd phys1655/hw/HW01/unixstuff
+  228  ls -l science.txt
+  229  gzip science.txt
+  230  gunzip science.txt.gz
+  231  zip science.txt.zip
+  232  zip science.txt
+  233  tar czf mydir.tar.gz mydir
+  234  mkdir mydir
+  235  tar czf mydir.tar.gz mydir
+  236  tar xf mydir.tar.gz
+  237  file *
+  238  cut­ -d DELIM ­-f1,2,3 file.txt
+  239  uniq mylist.txt
+  240  uniq science.txt
+  241  sort animals | uniq
+  242  history (show command history list)
+  243  history
+  244  sort animals | uniq
+  245  mkdir phys1655
+  246  grep -h p list? | sort > sorted_plist.txt
+  247  % echo $SHELL
+  248  echo $SHELL
+  249  printenv | more
+  250  export VAR=value
+  251  source envs.sh
+  252  echo $ncpus
+  253  source ~/.bashrc
+  254  cd; units
+  255  history 100 < history.txt
+  256  history 100 >  history.txt
+  257  git add history.txt
+  258  git status
+  259  git commit -m "history.txt hw01"
+  260  git push
+  261  mv ~/history.txt ~/phys1655/hw/HW01
+  262  cd phys1655/hw/HW01
+  263  git add history.txt
+  264  git status
+  265  git commit -m "history.txt hw01"
+  266  git push
+  267  history < history_all.txt
+  268  history > history_all.txt
